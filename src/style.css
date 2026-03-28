@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+}
+@layer base {
+  p {
+    font-weight: 400;
+    letter-spacing: var(--tracking-wide);
+  }
+}
